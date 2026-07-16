@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#2B2D2F"/>
+  <text x="32" y="39" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#F6F4EF">CZ</text>
+  <path d="M16 49H48" stroke="#69C4C2" stroke-width="4" stroke-linecap="round"/>
+</svg>
