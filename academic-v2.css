@@ -209,16 +209,19 @@ section h3 {
 .entry-logo {
   display: grid;
   place-items: center;
-  width: 82px;
-  height: 82px;
+  width: 128px;
+  min-height: 82px;
   flex: 0 0 auto;
   border: 1px solid #c7d1dd;
   border-radius: 4px;
-  background: #f7fbff;
-  color: #667788;
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+  background: #fff;
+  padding: 8px;
+}
+
+.entry-logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .company-logo {
