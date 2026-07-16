@@ -217,10 +217,7 @@ section h3 {
   width: 128px;
   min-height: 82px;
   flex: 0 0 auto;
-  border: 1px solid #c7d1dd;
-  border-radius: 4px;
-  background: #fff;
-  padding: 8px;
+  background: transparent;
 }
 
 .entry-logo img {
