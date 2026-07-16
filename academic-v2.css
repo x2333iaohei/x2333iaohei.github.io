@@ -167,11 +167,21 @@ section h3 {
 }
 
 .pub-item {
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .pub-title {
   font-weight: bold;
+}
+
+.pub-authors,
+.pub-venue {
+  font-size: 15px;
+}
+
+.pub-venue {
+  color: var(--link);
+  font-style: italic;
 }
 
 .news-list,
@@ -288,6 +298,10 @@ footer {
     height: 144px;
   }
 
+  .hero-info {
+    min-width: 0;
+  }
+
   .hero-info h1 {
     font-size: 28px;
   }
@@ -303,5 +317,50 @@ footer {
   .award-year {
     display: block;
     margin-top: 1px;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    padding: 24px 16px 40px;
+    overflow-x: hidden;
+  }
+
+  .topbar {
+    align-items: flex-start;
+  }
+
+  .topbar-right {
+    width: 100%;
+    gap: 6px 12px;
+  }
+
+  .hero {
+    display: block;
+  }
+
+  .hero-photo {
+    width: 104px;
+    height: 125px;
+    margin-bottom: 14px;
+  }
+
+  .hero-info h1 {
+    font-size: 25px;
+  }
+
+  .hero-info p,
+  .pub-title,
+  .pub-authors,
+  .pub-venue,
+  .entry-body,
+  .news-list li,
+  .compact-list li,
+  .awards-list li {
+    overflow-wrap: break-word;
+  }
+
+  .focus-line {
+    font-size: 13px;
   }
 }
