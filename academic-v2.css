@@ -259,6 +259,25 @@ section h3 {
   margin-top: 3px;
 }
 
+.project-media {
+  max-width: 560px;
+  margin: 9px 0 4px;
+}
+
+.project-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+}
+
+.project-media figcaption {
+  margin-top: 3px;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 .awards-list {
   list-style: none;
   padding: 0;
