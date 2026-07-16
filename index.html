@@ -11,43 +11,101 @@
 <body>
   <header class="topbar">
     <div class="topbar-left">
-      <a href="#top">Chen Zhanghui / 陈章辉</a>
+      <a href="#top">Chen Zhanghui~#</a>
     </div>
     <nav class="topbar-right" aria-label="Primary navigation">
-      <a href="#news">News</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#publications">Publications</a>
-      <a href="#awards">Awards</a>
-      <a href="#contact">Contact</a>
+      <a href="#projects">Projects/</a>
+      <a href="#publications">Publications/</a>
+      <a href="https://github.com/x2333iaohei">GitHub/</a>
+      <a href="mailto:3149330839@qq.com">Email</a>
     </nav>
   </header>
   <hr class="topbar-divider" />
 
   <main id="top">
     <section class="hero">
+      <div class="hero-photo">
+        <img src="./profile.jpg" alt="Portrait of Chen Zhanghui" />
+      </div>
       <div class="hero-info">
-        <h1>Chen Zhanghui | 陈章辉</h1>
+        <p class="greeting">Hi!</p>
+        <h1>Chen Zhanghui</h1>
         <hr class="underline" />
-        <p class="subtitle">Undergraduate Student in Robotics Engineering, Shenzhen Technology University</p>
+        <p class="subtitle">Undergraduate researcher in robotics</p>
         <p>
-          I am interested in robot autonomy and robotic systems, especially ROS
+          I am Chen Zhanghui (陈章辉), an undergraduate student in
+          <strong>Robotics Engineering</strong> at <strong>Shenzhen Technology
+          University</strong>.
+        </p>
+        <p>
+          My work focuses on robot autonomy and robotic systems: ROS
           development, autonomous navigation, SLAM, motion control,
           perception-planning integration, and Sim-to-Real deployment.
         </p>
         <p>
-          My recent projects involve quadruped robot navigation for hazard-source
-          search, underwater ROV control, and autonomous unmanned logistics
-          vehicles.
+          Recently, I have worked on quadruped robot navigation for
+          hazard-source search, underwater ROV control, and autonomous unmanned
+          logistics vehicles.
         </p>
         <p class="hero-links">
-          <a href="mailto:3149330839@qq.com">Email</a> /
+          <a href="mailto:3149330839@qq.com">Contact</a> /
+          <a href="#projects">Projects</a> /
           <a href="https://github.com/x2333iaohei">GitHub</a>
         </p>
         <p class="focus-line">
-          ROS1/2 · SLAM · Navigation · Motion Control · Reinforcement Learning · Robot Systems
+          &gt; focus: ROS development / autonomous navigation / motion control / robot systems
         </p>
       </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <hr class="sec-rule" />
+
+      <article class="pub-item">
+        <p class="entry-meta">2026.04 - Present · Team Lead</p>
+        <p class="pub-title">Autonomous Hazard Search and Recognition with Quadruped Robots</p>
+        <p>
+          Developed and improved a 3D autonomous exploration and navigation
+          system for unknown, unstructured indoor environments. The system
+          integrates FAST-LIO mapping, OctoMap risk-cost mapping, A* global
+          planning, and EGO-Planner local trajectory optimization.
+        </p>
+        <p class="tags">FAST-LIO · OctoMap · A* · EGO-Planner · Quadruped Robot</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="entry-meta">2025.09 - 2026.02 · Technical Core Member</p>
+        <p class="pub-title">Multi-DOF Underwater Robot ROV</p>
+        <p>
+          Built a ROS-based framework for motion control and Sim-to-Real
+          integration. Optimized PID control and achieved stable depth and
+          heading control on a physical ROV. Implemented EKF-based
+          multi-sensor fusion modules with unit and integration tests.
+        </p>
+        <p class="tags">ROS · PID · EKF · ROV · Sim-to-Real</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="entry-meta">2025.03 - 2025.08 · Technician</p>
+        <p class="pub-title">Autonomous Unmanned Logistics Vehicle</p>
+        <p>
+          Designed a local planner, improved DWA-based autonomous obstacle
+          avoidance, and integrated OCR recognition into a ROS perception-
+          planning loop for last-mile delivery. Led technical decomposition,
+          system integration, and functional testing before acceptance.
+        </p>
+        <p class="tags">ROS · DWA · OCR · Local Planner · System Integration</p>
+      </article>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & Patents</h2>
+      <hr class="sec-rule" />
+      <p class="muted">
+        Publications, patents, preprints, and technical reports will be added
+        here after they become public.
+      </p>
     </section>
 
     <section id="news">
@@ -76,56 +134,6 @@
           <p class="entry-meta">2024.09 - Present</p>
         </div>
       </div>
-    </section>
-
-    <section id="projects">
-      <h2>Selected Projects</h2>
-      <hr class="sec-rule" />
-
-      <article class="project-item">
-        <p class="entry-meta">2026.04 - Present · Team Lead</p>
-        <h3>Autonomous Hazard Search and Recognition with Quadruped Robots</h3>
-        <p>
-          Developed and improved a 3D autonomous exploration and navigation
-          system for unknown, unstructured indoor environments. The system
-          integrates FAST-LIO mapping, OctoMap risk-cost mapping, A* global
-          planning, and EGO-Planner local trajectory optimization.
-        </p>
-        <p class="tags">FAST-LIO · OctoMap · A* · EGO-Planner · Quadruped Robot</p>
-      </article>
-
-      <article class="project-item">
-        <p class="entry-meta">2025.09 - 2026.02 · Technical Core Member</p>
-        <h3>Multi-DOF Underwater Robot ROV</h3>
-        <p>
-          Built a ROS-based framework for motion control and Sim-to-Real
-          integration. Optimized PID control and achieved stable depth and
-          heading control on a physical ROV. Implemented EKF-based
-          multi-sensor fusion modules with unit and integration tests.
-        </p>
-        <p class="tags">ROS · PID · EKF · ROV · Sim-to-Real</p>
-      </article>
-
-      <article class="project-item">
-        <p class="entry-meta">2025.03 - 2025.08 · Technician</p>
-        <h3>Autonomous Unmanned Logistics Vehicle</h3>
-        <p>
-          Designed a local planner, improved DWA-based autonomous obstacle
-          avoidance, and integrated OCR recognition into a ROS perception-
-          planning loop for last-mile delivery. Led technical decomposition,
-          system integration, and functional testing before acceptance.
-        </p>
-        <p class="tags">ROS · DWA · OCR · Local Planner · System Integration</p>
-      </article>
-    </section>
-
-    <section id="publications">
-      <h2>Publications & Patents</h2>
-      <hr class="sec-rule" />
-      <p class="muted">
-        Publications, patents, preprints, and technical reports will be added
-        here after they become public.
-      </p>
     </section>
 
     <section id="skills">
