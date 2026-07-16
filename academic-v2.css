@@ -175,13 +175,18 @@ section h3 {
 }
 
 .pub-authors,
-.pub-venue {
+.pub-venue,
+.pub-note {
   font-size: 15px;
 }
 
 .pub-venue {
   color: var(--link);
   font-style: italic;
+}
+
+.pub-note {
+  color: var(--text-muted);
 }
 
 .news-list,
