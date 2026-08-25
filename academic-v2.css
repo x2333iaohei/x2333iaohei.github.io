@@ -226,15 +226,10 @@ section h3 {
   height: auto;
 }
 
-.text-logo {
-  min-height: 82px;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  color: var(--link);
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 0;
+.university-seal img {
+  width: 82px;
+  height: 82px;
+  object-fit: contain;
 }
 
 .entry-row + .entry-row {
