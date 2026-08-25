@@ -226,6 +226,21 @@ section h3 {
   height: auto;
 }
 
+.text-logo {
+  min-height: 82px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--link);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+.entry-row + .entry-row {
+  margin-top: 18px;
+}
+
 .company-logo {
   display: grid;
   place-items: center;
