@@ -303,6 +303,14 @@ section h3 {
   line-height: 1.45;
 }
 
+.research-media {
+  max-width: 680px;
+}
+
+.document-media {
+  max-width: 430px;
+}
+
 .awards-list {
   list-style: none;
   padding: 0;
