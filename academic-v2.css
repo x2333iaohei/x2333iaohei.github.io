@@ -31,6 +31,17 @@ body {
   line-height: 1.72;
 }
 
+html[lang="zh-CN"] body {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+  line-height: 1.82;
+}
+
+html[lang="zh-CN"] .hero-info h1,
+html[lang="zh-CN"] section h2,
+html[lang="zh-CN"] section h3 {
+  letter-spacing: 0;
+}
+
 a {
   color: var(--link);
   text-decoration: none;
@@ -234,6 +245,10 @@ section h3 {
 
 .entry-row + .entry-row {
   margin-top: 18px;
+}
+
+.development-item {
+  margin-top: 22px;
 }
 
 .company-logo {
