@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>陈章辉｜机器人工程与机器人自主系统</title>
+  <meta name="description" content="陈章辉的个人主页：机器人工程、ROS、SLAM、自主导航、路径规划、运动控制与机器人系统。" />
+  <link rel="icon" href="../favicon.svg" />
+  <link rel="stylesheet" href="../academic-v2.css" />
+  <link rel="alternate" hreflang="zh-CN" href="./" />
+  <link rel="alternate" hreflang="en" href="../" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <a href="#top">陈章辉~#</a>
+    </div>
+    <nav class="topbar-right" aria-label="主导航">
+      <a href="#projects">项目/</a>
+      <a href="#experience">经历/</a>
+      <a href="#publications">论文与专利/</a>
+      <a href="#awards">荣誉/</a>
+      <a href="../" lang="en">English</a>
+    </nav>
+  </header>
+  <hr class="topbar-divider" />
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo">
+        <img src="../profile.jpg" alt="陈章辉证件照" />
+      </div>
+      <div class="hero-info">
+        <p class="greeting">你好！</p>
+        <h1>陈章辉</h1>
+        <hr class="underline" />
+        <p class="subtitle">机器人工程本科生 · 机器人自主系统方向</p>
+        <p>
+          深圳技术大学中德智能制造学院机器人工程专业本科生，主要关注机器人自主探索、
+          SLAM、路径规划、多传感器感知、运动控制与 Sim-to-Real 部署。
+        </p>
+        <p>
+          目前主导四足机器人三维未知环境自主探索项目；曾在南方科技大学开展机器人嗅觉导航与
+          声学导航研究，并具有水下 ROV、无人物流车及服务机器人企业实习经历。
+        </p>
+        <p>
+          已有 5 篇论文录用待出版、1 项发明专利申请中，获机器人赛事全国一等奖等国家级奖项。
+        </p>
+        <p class="hero-links">
+          <a href="mailto:xhhuniverse@gmail.com">联系我</a> /
+          <a href="#projects">重点项目</a> /
+          <a href="#experience">实践经历</a> /
+          <a href="#publications">论文与专利</a>
+        </p>
+        <p class="focus-line">
+          &gt; 方向：ROS 开发 / 自主导航 / 运动控制 / 机器人系统
+        </p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>重点项目</h2>
+      <hr class="sec-rule" />
+
+      <article class="pub-item">
+        <p class="entry-meta">2026.04 - 至今 · 项目负责人</p>
+        <p class="pub-title">四足机器人三维未知环境自主探索与危险源搜索</p>
+        <p>
+          面向“挑战杯”揭榜挂帅赛道，自 2026 年 4 月起主导四足机器人自主探索系统研发与备赛。
+          项目聚焦三维未知环境中的自主建图、可通行性与风险代价地图构建、全局及局部路径规划、
+          危险源搜索识别与定位，并支持任务完成后的自主返航。系统集成 FAST-LIO、OctoMap、
+          A* 与 EGO-Planner 等模块。
+        </p>
+        <p class="tags">FAST-LIO · OctoMap · A* · EGO-Planner · 四足机器人</p>
+        <figure class="project-media">
+          <img src="../assets/quadruped-demo-16-21.gif" alt="四足机器人自主导航、建图与规划演示" loading="lazy" />
+          <figcaption>四足机器人自主导航、建图与规划演示片段。</figcaption>
+        </figure>
+      </article>
+
+      <article class="pub-item">
+        <p class="entry-meta">2025.09 - 2026.02 · 技术核心成员</p>
+        <p class="pub-title">多自由度水下机器人（ROV）</p>
+        <p>
+          搭建基于 ROS 的运动控制与 Sim-to-Real 集成框架，优化 PID/MPC 控制算法，
+          并在实物 ROV 上实现深度与航向稳定控制；基于 EKF 完成多传感器融合模块开发、
+          单元测试与集成测试，编写技术文档以保证代码复用性与鲁棒性。
+        </p>
+        <p class="tags">ROS · PID/MPC · EKF · ROV · Sim-to-Real</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="entry-meta">2025.03 - 2025.08 · 技术成员</p>
+        <p class="pub-title">自主无人物流车</p>
+        <p>
+          负责局部路径规划，改进基于 DWA 的动态避障，并将 OCR 识别集成至 ROS 感知—规划闭环，
+          面向末端配送场景完成技术任务拆解、系统集成、功能测试与验收。项目获得媒体报道。
+        </p>
+        <p class="tags">ROS · DWA · OCR · 局部规划 · 系统集成</p>
+        <figure class="project-media">
+          <img src="../assets/logistics-media-report.png" alt="自主无人物流车项目媒体报道截图" loading="lazy" />
+          <figcaption>自主无人物流车项目媒体报道截图。</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>科研与实习经历</h2>
+      <hr class="sec-rule" />
+      <div class="entry-row">
+        <div class="entry-logo university-seal">
+          <img src="../assets/sustech-logo.png" alt="南方科技大学校徽" />
+        </div>
+        <div class="entry-body">
+          <h3>南方科技大学</h3>
+          <p><strong>科研助理 / 访问学者</strong></p>
+          <p>在孔贺老师指导下开展机器人嗅觉导航与声学导航方向研究。</p>
+          <p class="entry-meta">2026.07 - 2026.08</p>
+        </div>
+      </div>
+
+      <div class="entry-row">
+        <div class="company-logo">
+          <img src="../assets/padbot-logo.png" alt="派宝机器人标志" />
+        </div>
+        <div class="entry-body">
+          <h3>广东省派宝机器人有限公司</h3>
+          <p><strong>产品经理（技术向）实习生</strong></p>
+          <p>
+            负责机器学习模块的技术选型与落地，采用 TensorFlow 模型实现视觉分类及巡检、避障场景的
+            实时推理；主导路径规划与避障算法集成测试，基于 ROS 处理激光雷达数据与 AMCL 定位，
+            编写技术文档支撑算法迭代与产品交付。
+          </p>
+          <p class="entry-meta">2026.02 - 2026.03</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>论文与专利</h2>
+      <hr class="sec-rule" />
+
+      <article class="pub-item">
+        <p class="pub-title">DPS Hand: A Dual-Parallelogram and Slot-Guided Gripper for Adaptive Grasping and Environmental Scooping</p>
+        <p class="pub-authors">Haotong Luan, <strong>Zhanghui Chen</strong>, Yiwei Sheng, Haokai Ding, Ziyu Gong, Yongqiang He, Yuan Gao, Jianwu Chen, Tao Yang, and Wenzeng Zhang.</p>
+        <p class="pub-venue">IEEE International Conference on Automation Science and Engineering (IEEE CASE 2026)，已录用，待出版。</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Failure-Aware Frontier Exploration with Temporal Risk Memory under Sparse Local Point-Cloud Observations</p>
+        <p class="pub-authors"><strong>Zhanghui Chen</strong>, Yaqiang Zhang, Juntao Huang, Ruwen Xu, Yile Li, Wang Yang, Xiaoyu Ying, Yingzhe Li, Qing Yu, and Jianwu Chen.</p>
+        <p class="pub-venue">The 4th International Conference on Robotics, Control and Vision Engineering (RCVE 2026)，已录用，待出版。</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">A risk-aware frontier planner with sparse 3D observations for autonomous inspection in new-energy facilities</p>
+        <p class="pub-authors">Yile Li<sup>†</sup>, <strong>Zhanghui Chen</strong><sup>†</sup>, Yaqiang Zhang, Li Chen, Wang Yang, Xiaoyu Ying, Juntao Huang, Ruwen Xu, Yingzhe Li, Qing Yu, and Jianwu Chen.</p>
+        <p class="pub-venue">International Conference on Optoelectronic Information and New Energy Technology (OINET 2026)，已录用，待出版。</p>
+        <p class="pub-note"><sup>†</sup> 共同第一作者。</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Shadow-Aware Frontier Exploration with Simulated Sparse Range Observations for Mobile Robots</p>
+        <p class="pub-authors"><strong>Zhanghui Chen</strong>, Wang Yang, Li Chen, Xiaoyu Ying, Yile Li, Yaqiang Zhang, Juntao Huang, Ruwen Xu, Yingzhe Li, Qing Yu, and Jianwu Chen.</p>
+        <p class="pub-venue">The 2nd Asia Conference on Unmanned Systems and Intelligent Control (USIC 2026)，已录用，待出版。</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Lightweight Metal-Surface Defect Detection with Leakage-Aware High-Resolution Localization</p>
+        <p class="pub-authors">Xiaoyu Ying, Wang Yang, Yaqiang Zhang, Ruwen Xu, <strong>Zhanghui Chen</strong>, Yile Li, Juntao Huang, and Jianwu Chen.</p>
+        <p class="pub-venue">2026 2nd International Conference on Laser, Optical Technology and Applications (LOTA 2026)，已录用，待出版。</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">四足机器人自主危险源搜索与识别相关发明专利</p>
+        <p class="pub-authors"><strong>陈章辉</strong> 等。</p>
+        <p class="pub-venue">发明专利申请中。</p>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>教育与专业发展</h2>
+      <hr class="sec-rule" />
+      <div class="entry-row">
+        <div class="entry-logo">
+          <img src="../assets/sztu-logo.png" alt="深圳技术大学校徽" />
+        </div>
+        <div class="entry-body">
+          <h3>深圳技术大学</h3>
+          <p><strong>机器人工程 · 工学学士（在读）</strong></p>
+          <p>中德智能制造学院</p>
+          <p>
+            主要课程：机器人学、机器人建模与仿真、自动控制原理、电工电子技术、数字电路、
+            模拟电路、高等数学及大学英语等。
+          </p>
+          <p class="entry-meta">2024.09 - 至今</p>
+        </div>
+      </div>
+
+      <article class="pub-item development-item">
+        <p class="entry-meta">2026 · 核心成员</p>
+        <p class="pub-title">深圳技术大学第三届技术经理人卓越班</p>
+        <p>院长：隆武华教授</p>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>专业技能</h2>
+      <hr class="sec-rule" />
+      <ul class="compact-list">
+        <li><strong>机器人软件：</strong>ROS1/2、Gazebo、Isaac Sim、Navigation Stack、技术文档编写。</li>
+        <li><strong>算法方向：</strong>SLAM、路径规划、强化学习、YOLO 视觉感知、多传感器融合。</li>
+        <li><strong>编程与工程：</strong>Python、C++、STM32 基础、仿真到实物系统集成。</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>荣誉与证书</h2>
+      <hr class="sec-rule" />
+      <ul class="awards-list">
+        <li><span>睿抗机器人开发者大赛（RAICOM）全国总决赛智能侦察赛项一等奖（队长） <a href="../assets/raicom-2025-first-prize.jpg">[证书]</a></span><span class="award-year">2025</span></li>
+        <li><span>第二十七届中国机器人及人工智能大赛全国总决赛机器人任务挑战赛（无人机空地协同）三等奖 <a href="../assets/craic-2025-third-prize.pdf">[证书]</a></span><span class="award-year">2025</span></li>
+        <li><span>“学习之星”奖学金一等奖</span><span class="award-year">深圳技术大学</span></li>
+        <li><span>“科创之星”奖学金一等奖、二等奖</span><span class="award-year">深圳技术大学</span></li>
+        <li><span>大学英语六级（CET-6）：530 分</span><span class="award-year">英语</span></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>联系方式</h2>
+      <hr class="sec-rule" />
+      <p>
+        正在寻找机器人算法、ROS 开发、自主导航、运动控制、感知决策等方向的实习、科研助理及项目合作机会。
+      </p>
+      <p>邮箱：<a href="mailto:xhhuniverse@gmail.com">xhhuniverse@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>最后更新：2026 年 9 月</p>
+  </footer>
+</body>
+</html>
