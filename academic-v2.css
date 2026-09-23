@@ -310,9 +310,9 @@ section h3 {
 .research-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 12px;
-  max-width: 760px;
-  margin: 10px 0 4px;
+  gap: 5px;
+  max-width: 640px;
+  margin: 8px 0 3px;
 }
 
 .research-gallery figure,
@@ -331,13 +331,6 @@ section h3 {
   width: 100%;
   aspect-ratio: 5 / 3;
   object-fit: contain;
-}
-
-.research-gallery figcaption {
-  margin-top: 4px;
-  color: var(--text-muted);
-  font-size: 13px;
-  line-height: 1.45;
 }
 
 .awards-list {
@@ -450,7 +443,4 @@ footer {
     font-size: 13px;
   }
 
-  .research-gallery {
-    grid-template-columns: 1fr;
-  }
 }
