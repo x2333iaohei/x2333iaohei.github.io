@@ -303,12 +303,41 @@ section h3 {
   line-height: 1.45;
 }
 
-.research-media {
-  max-width: 680px;
-}
-
 .document-media {
   max-width: 430px;
+}
+
+.research-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 760px;
+  margin: 10px 0 4px;
+}
+
+.research-gallery figure,
+.research-gallery a {
+  min-width: 0;
+}
+
+.research-gallery a {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--border);
+}
+
+.research-gallery img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  object-fit: contain;
+}
+
+.research-gallery figcaption {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.45;
 }
 
 .awards-list {
@@ -419,5 +448,9 @@ footer {
 
   .focus-line {
     font-size: 13px;
+  }
+
+  .research-gallery {
+    grid-template-columns: 1fr;
   }
 }
