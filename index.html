@@ -1,122 +1,297 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Chen Zhanghui | Robotics Engineering</title>
-  <meta name="description" content="Personal homepage of Chen Zhanghui, a robotics engineering undergraduate focused on ROS, autonomous navigation, SLAM, motion control, and robot systems." />
+  <title>Zhanghui Chen | 陈章辉</title>
+  <meta name="description" content="Zhanghui Chen's academic homepage: robotics engineering, ROS, autonomous navigation, SLAM, motion control, and robot systems." />
   <link rel="icon" href="./favicon.svg" />
-  <meta property="og:title" content="Chen Zhanghui | Robotics Engineering" />
-  <meta property="og:description" content="Robotics engineering portfolio focused on ROS, autonomous navigation, SLAM, motion control, and robot systems." />
-  <meta property="og:image" content="./robotics-hero.png" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./academic-v2.css" />
+  <link rel="alternate" hreflang="en" href="./" />
+  <link rel="alternate" hreflang="zh-CN" href="./zh/" />
 </head>
 <body>
-  <main>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Back to top">CZH</a>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#news">News</a>
-        <a href="#education">Education</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
-        <a href="#skills">Skills</a>
-        <a href="#internships">Internships</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+  <header class="topbar">
+    <div class="topbar-left">
+      <a href="#top">Zhanghui Chen~#</a>
+    </div>
+    <nav class="topbar-right" aria-label="Primary navigation">
+      <a href="#publications">Publications/</a>
+      <a href="#projects">Projects/</a>
+      <a href="#experience">Experience/</a>
+      <a href="mailto:xhhuniverse@gmail.com">Email/</a>
+      <a href="./zh/" lang="zh-CN">中文</a>
+    </nav>
+  </header>
+  <hr class="topbar-divider" />
 
-    <section class="hero" id="top">
-      <div class="hero-copy">
-        <p class="eyebrow">Robotics Engineering / ROS / Autonomous Navigation</p>
-        <h1>Chen Zhanghui<span>陈章辉</span></h1>
-        <p class="lead">Undergraduate student in Robotics Engineering at Shenzhen Technology University, focused on building reliable robot systems that connect perception, planning, control, and real-world deployment.</p>
-        <div class="hero-actions">
-          <a class="primary-action" href="mailto:3149330839@qq.com">Email me</a>
-          <a class="secondary-action" href="#projects">View projects</a>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-photo">
+        <img src="./profile.jpg" alt="Portrait of Zhanghui Chen" />
+      </div>
+      <div class="hero-info">
+        <p class="greeting">Hi!</p>
+        <h1>Zhanghui Chen</h1>
+        <hr class="underline" />
+        <p class="subtitle">Undergraduate researcher in robotics</p>
+        <p>
+          I am Zhanghui Chen (陈章辉), an undergraduate student in
+          <strong>Robotics Engineering</strong> at <strong>Shenzhen Technology
+          University</strong>.
+        </p>
+        <p>
+          My work focuses on robot autonomy and robotic systems: autonomous
+          exploration, SLAM, path planning, multi-sensor perception, motion
+          control, and Sim-to-Real deployment.
+        </p>
+        <p>
+          My current work includes quadruped robot 3D autonomous exploration
+          in unknown environments, robot olfactory navigation, acoustic
+          navigation, underwater ROV control, and autonomous logistics vehicles.
+        </p>
+        <p class="hero-links">
+          <a href="mailto:xhhuniverse@gmail.com">Contact</a> /
+          <a href="#publications">Publications</a> /
+          <a href="#projects">Projects</a> /
+          <a href="#experience">Experience</a>
+        </p>
+        <p class="focus-line">
+          &gt; focus: ROS development / autonomous navigation / motion control / robot systems
+        </p>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications & Patents</h2>
+      <hr class="sec-rule" />
+
+      <article class="pub-item">
+        <p class="pub-title">DPS Hand: A Dual-Parallelogram and Slot-Guided Gripper for Adaptive Grasping and Environmental Scooping</p>
+        <p class="pub-authors">Haotong Luan, <strong>Zhanghui Chen</strong>, Yiwei Sheng, Haokai Ding, Ziyu Gong, Yongqiang He, Yuan Gao, Jianwu Chen, Tao Yang, and Wenzeng Zhang.</p>
+        <p class="pub-venue">IEEE International Conference on Automation Science and Engineering (IEEE CASE), 2026. To appear.</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Failure-Aware Frontier Exploration with Temporal Risk Memory under Sparse Local Point-Cloud Observations</p>
+        <p class="pub-authors"><strong>Zhanghui Chen</strong>, Yaqiang Zhang, Juntao Huang, Ruwen Xu, Yile Li, Wang Yang, Xiaoyu Ying, Yingzhe Li, Qing Yu, and Jianwu Chen.</p>
+        <p class="pub-venue">The 4th International Conference on Robotics, Control and Vision Engineering (RCVE), 2026. To appear.</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">A risk-aware frontier planner with sparse 3D observations for autonomous inspection in new-energy facilities</p>
+        <p class="pub-authors">Yile Li<sup>†</sup>, <strong>Zhanghui Chen</strong><sup>†</sup>, Yaqiang Zhang, Li Chen, Wang Yang, Xiaoyu Ying, Juntao Huang, Ruwen Xu, Yingzhe Li, Qing Yu, and Jianwu Chen.</p>
+        <p class="pub-venue">International Conference on Optoelectronic Information and New Energy Technology (OINET 2026). To appear.</p>
+        <p class="pub-note"><sup>†</sup> Equal contribution.</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Shadow-Aware Frontier Exploration with Simulated Sparse Range Observations for Mobile Robots</p>
+        <p class="pub-authors"><strong>Zhanghui Chen</strong>, Wang Yang, Li Chen, Xiaoyu Ying, Yile Li, Yaqiang Zhang, Juntao Huang, Ruwen Xu, Yingzhe Li, Qing Yu, and Jianwu Chen.</p>
+        <p class="pub-venue">The 2nd Asia Conference on Unmanned Systems and Intelligent Control (USIC 2026). To appear.</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Lightweight Metal-Surface Defect Detection with Leakage-Aware High-Resolution Localization</p>
+        <p class="pub-authors">Xiaoyu Ying, Wang Yang, Yaqiang Zhang, Ruwen Xu, <strong>Zhanghui Chen</strong>, Yile Li, Juntao Huang, and Jianwu Chen.</p>
+        <p class="pub-venue">2026 2nd International Conference on Laser, Optical Technology and Applications (LOTA 2026). To appear.</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="pub-title">Method and System for Generating Local Safety Constraints at Staircase Corners for Quadruped Robots</p>
+        <p class="pub-authors"><strong>Zhanghui Chen</strong> et al.</p>
+        <p class="pub-venue">Invention patent application accepted for processing by CNIPA (Application No. 202611455742.2; filed September 18, 2026).</p>
+        <figure class="project-media document-media">
+          <img src="./assets/patent-acceptance-20260918.png" alt="CNIPA invention patent application acceptance notice" loading="lazy" />
+          <figcaption>CNIPA patent application acceptance notice. Third-party contact details have been omitted.</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+      <hr class="sec-rule" />
+
+      <article class="pub-item">
+        <p class="entry-meta">2026.04 - Present · Team Lead</p>
+        <p class="pub-title">Quadruped Robot Autonomous Exploration and Hazard-Source Search</p>
+        <p>
+          Developing a quadruped robot system for autonomous exploration and
+          hazard-source search in 3D unknown environments. The system integrates
+          FAST-LIO mapping, OctoMap-based
+          traversability and risk-cost mapping, A* global path planning, and
+          EGO-Planner local trajectory optimization. My contributions include
+          optimizing FAST-LIO to address pose drift in geometrically degenerate
+          scenes and localization-data backlog issues, improving localization
+          stability and real-time performance. The project also covers hazard-source
+          search, recognition and localization, followed by autonomous return
+          after task completion.
+        </p>
+        <p class="tags">FAST-LIO · OctoMap · A* · EGO-Planner · Quadruped Robot</p>
+        <figure class="project-media">
+          <img src="./assets/quadruped-demo-16-21.gif" alt="Quadruped robot navigation demo showing simulation, mapping, and planning views" loading="lazy" />
+          <figcaption>Demo segment: quadruped robot navigation, mapping, and planning.</figcaption>
+        </figure>
+      </article>
+
+      <article class="pub-item">
+        <p class="entry-meta">2025.09 - 2026.02 · Core Technical Member</p>
+        <p class="pub-title">Multi-DOF Underwater Robot ROV</p>
+        <p>
+          Built a ROS-based framework for motion control and Sim-to-Real
+          integration. Optimized PID control and achieved stable depth and
+          heading control on a physical ROV. Implemented EKF-based
+          multi-sensor fusion modules with unit and integration tests.
+        </p>
+        <p class="tags">ROS · PID · EKF · ROV · Sim-to-Real</p>
+      </article>
+
+      <article class="pub-item">
+        <p class="entry-meta">2025.03 - 2025.08 · Technical Member</p>
+        <p class="pub-title">Autonomous Logistics Vehicle</p>
+        <p>
+          Designed a local planner, improved DWA-based autonomous obstacle
+          avoidance, and integrated OCR recognition into a ROS perception-
+          planning loop for last-mile delivery. Led technical decomposition,
+          system integration, and functional testing before acceptance.
+        </p>
+        <p class="tags">ROS · DWA · OCR · Local Planner · System Integration</p>
+        <figure class="project-media">
+          <img src="./assets/logistics-media-report.png" alt="Media report screenshot of the autonomous logistics vehicle project" loading="lazy" />
+          <figcaption>Media coverage screenshot of the autonomous logistics vehicle project.</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <hr class="sec-rule" />
+      <div class="entry-row">
+        <div class="entry-logo university-seal">
+          <img src="./assets/sustech-logo.png" alt="Southern University of Science and Technology logo" />
+        </div>
+        <div class="entry-body">
+          <h3>Southern University of Science and Technology</h3>
+          <p><strong>Research Assistant / Visiting Scholar</strong></p>
+          <p>
+            Conducted research on robot olfactory navigation and acoustic
+            navigation under the supervision of Prof. Kong He.
+          </p>
+          <p class="entry-meta">2026.07 - 2026.08</p>
+          <div class="research-gallery" aria-label="Research results from robot olfactory and acoustic navigation">
+            <figure>
+              <a href="./assets/sustech-olfactory-pf-initial.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/sustech-olfactory-pf-initial.jpg" alt="Particle-filter initialization in a noisy indoor environment" loading="lazy" />
+              </a>
+            </figure>
+            <figure>
+              <a href="./assets/sustech-olfactory-pf-converged.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/sustech-olfactory-pf-converged.jpg" alt="Particle-filter convergence and olfactory source-localization result" loading="lazy" />
+              </a>
+            </figure>
+            <figure>
+              <a href="./assets/sustech-olfactory-navigation-pf.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/sustech-olfactory-navigation-pf.jpg" alt="Particle-filter localization and convergence evaluation" loading="lazy" />
+              </a>
+            </figure>
+            <figure>
+              <a href="./assets/sustech-acoustic-array-geometry.jpg" target="_blank" rel="noopener noreferrer">
+                <img src="./assets/sustech-acoustic-array-geometry.jpg" alt="Three-dimensional geometry simulation of three microphone-array configurations" loading="lazy" />
+              </a>
+            </figure>
+          </div>
         </div>
       </div>
-      <figure class="hero-visual">
-        <img src="./robotics-hero.png" alt="Quadruped robot navigating an indoor lab with point-cloud mapping and path planning overlays" />
-      </figure>
-    </section>
 
-    <section class="summary-band" aria-label="Research focus">
-      <span>ROS1/ROS2 development</span>
-      <span>SLAM and autonomous navigation</span>
-      <span>Motion control and Sim-to-Real</span>
-      <span>Perception, planning, and robot systems</span>
-    </section>
-
-    <div class="page-grid">
-      <aside class="profile-panel" aria-label="Profile">
-        <div class="avatar-mark" aria-hidden="true">陈</div>
-        <h2>Chen Zhanghui</h2>
-        <p>Robotics Engineering Undergraduate</p>
-        <ul>
-          <li>Shenzhen Technology University</li>
-          <li>Shenzhen, China</li>
-          <li><a href="mailto:3149330839@qq.com">3149330839@qq.com</a></li>
-        </ul>
-      </aside>
-
-      <div class="content-flow">
-        <section class="section" id="about">
-          <div class="section-heading"><p>About Me</p><h2>Building robot autonomy from simulation to hardware.</h2></div>
-          <p>I am interested in robot autonomy, with hands-on experience in ROS development, reinforcement learning practice, visual recognition, autonomous exploration, motion control, and system integration. My current work centers on 3D navigation and hazard-source search for quadruped robots in complex indoor environments.</p>
-        </section>
-
-        <section class="section" id="news">
-          <div class="section-heading"><p>News</p><h2>Recent updates</h2></div>
-          <ol class="timeline-list">
-            <li><time>2026</time><span>Ongoing quadruped robot navigation and hazard-search project; related technical results are being prepared for patent conversion.</span></li>
-            <li><time>2025</time><span>Led a team to win the national first prize in the RAICOM Robotics Developer Competition intelligent reconnaissance track.</span></li>
-          </ol>
-        </section>
-
-        <section class="section" id="education">
-          <div class="section-heading"><p>Education</p><h2>Shenzhen Technology University</h2></div>
-          <div class="entry"><div><h3>B.Eng. in Robotics Engineering</h3><p>Core coursework includes robotics, electrical engineering, digital circuits, analog circuits, robot modeling and simulation, automatic control, advanced mathematics, and college English.</p></div><time>Sep 2024 - Present</time></div>
-        </section>
-
-        <section class="section" id="projects">
-          <div class="section-heading"><p>Projects</p><h2>Selected robotics projects</h2></div>
-          <div class="project-list">
-            <article class="project-item"><div class="project-topline"><time>Apr 2026 - Present</time><span>Team Lead</span></div><h3>Autonomous Hazard Search and Recognition with Quadruped Robots</h3><p>Improving 3D autonomous exploration and obstacle avoidance for unknown, unstructured indoor scenes. The system integrates FAST-LIO mapping, OctoMap risk-cost maps, A* global planning, and EGO-Planner local trajectory optimization, with related results being converted into patent work.</p><div class="tag-row"><span>FAST-LIO</span><span>OctoMap</span><span>A*</span><span>EGO-Planner</span><span>Quadruped Robot</span></div></article>
-            <article class="project-item"><div class="project-topline"><time>Sep 2025 - Feb 2026</time><span>Technical Core Member</span></div><h3>Multi-DOF Underwater Robot ROV</h3><p>Built a ROS-based motion-control and Sim-to-Real integration framework, optimized PID control, and achieved stable depth and heading control on a physical ROV. Implemented EKF-based multi-sensor fusion modules with unit and integration tests.</p><div class="tag-row"><span>ROS</span><span>PID</span><span>EKF</span><span>ROV</span><span>Sim-to-Real</span></div></article>
-            <article class="project-item"><div class="project-topline"><time>Mar 2025 - Aug 2025</time><span>Technician</span></div><h3>Autonomous Unmanned Logistics Vehicle</h3><p>Designed a local planner, improved DWA-based autonomous obstacle avoidance, and added OCR recognition to form a ROS perception-planning loop for last-mile delivery. Led technical decomposition, system integration, and functional testing before project acceptance.</p><div class="tag-row"><span>ROS</span><span>DWA</span><span>OCR</span><span>Local Planner</span><span>System Integration</span></div></article>
-          </div>
-        </section>
-
-        <section class="section" id="publications"><div class="section-heading"><p>Publications</p><h2>Research outputs</h2></div><div class="placeholder-row"><p>Publications, patents, preprints, and technical reports will be added here as they become public.</p></div></section>
-
-        <section class="section" id="awards">
-          <div class="section-heading"><p>Awards</p><h2>Competitions and scholarships</h2></div>
-          <ul class="award-list">
-            <li>First Prize, RAICOM National Robotics Developer Competition, Intelligent Reconnaissance, National Final, Team Captain</li>
-            <li>Third Prize, 27th Robotics and Artificial Intelligence Competition, Air-Ground Collaboration Task Challenge, National Final</li>
-            <li>First Prize, Learning Star Scholarship</li>
-            <li>First Prize and Second Prize, Science and Innovation Star Scholarship</li>
-            <li>CET-6 English score: 530</li>
-          </ul>
-        </section>
-
-        <section class="section" id="skills">
-          <div class="section-heading"><p>Skills</p><h2>Technical stack</h2></div>
-          <div class="skill-grid">
-            <div class="skill-group"><h3>Robot Software</h3><p>ROS1/2 / Gazebo / Isaac Sim / navigation stack / technical documentation</p></div>
-            <div class="skill-group"><h3>Algorithms</h3><p>SLAM / path planning / reinforcement learning / YOLO perception / sensor fusion</p></div>
-            <div class="skill-group"><h3>Programming</h3><p>Python / C++ / STM32 basics / simulation-to-hardware integration</p></div>
-          </div>
-        </section>
-
-        <section class="section" id="internships"><div class="section-heading"><p>Internships</p><h2>Internship experience</h2></div><div class="placeholder-row"><p>Internships and research assistant work can be added here.</p></div></section>
-
-        <section class="section contact-section" id="contact"><div class="section-heading"><p>Contact</p><h2>Open to robotics RA and internship opportunities.</h2></div><p>Interests include ROS development, navigation algorithms, motion control, perception and decision algorithms, and robot research assistant roles.</p><a href="mailto:3149330839@qq.com">3149330839@qq.com</a></section>
+      <div class="entry-row">
+        <div class="company-logo">
+          <img src="./assets/padbot-logo.png" alt="PadBot logo" />
+        </div>
+        <div class="entry-body">
+          <h3>Guangdong PadBot Robot Co., Ltd.</h3>
+          <p><strong>Technical Product Intern</strong></p>
+          <p>
+            Evaluated and deployed machine-learning modules, including
+            TensorFlow-based visual classification and
+            real-time inference for inspection and obstacle-avoidance scenarios.
+            Integrated path-planning and obstacle-avoidance algorithms,
+            processed LiDAR data and AMCL localization in ROS, and prepared
+            technical documentation for algorithm iteration and product delivery.
+          </p>
+          <p class="entry-meta">2026.02 - 2026.03</p>
+        </div>
       </div>
-    </div>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <hr class="sec-rule" />
+      <ul class="news-list">
+        <li><span class="news-date">2026.07</span> Started a research assistant / visiting scholar experience at Southern University of Science and Technology on robot olfactory navigation and acoustic navigation.</li>
+        <li><span class="news-date">2026.04</span> Developed an integrated quadruped robot autonomy pipeline for 3D mapping, risk-aware planning, hazard-source search and localization, and autonomous return.</li>
+        <li><span class="news-date">2025</span> Received National First Prize in the RAICOM Robotics Developer Competition, Intelligent Reconnaissance track, as team captain.</li>
+        <li><span class="news-date">2025</span> Completed a ROS-based autonomous logistics vehicle project with perception-planning integration.</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <hr class="sec-rule" />
+      <div class="entry-row">
+        <div class="entry-logo">
+          <img src="./assets/sztu-logo.png" alt="Shenzhen Technology University logo" />
+        </div>
+        <div class="entry-body">
+          <h3>Shenzhen Technology University</h3>
+          <p><strong>B.Eng. in Robotics Engineering</strong></p>
+          <p>Sino-German College of Intelligent Manufacturing</p>
+          <p>
+            Coursework: Robotics, robot modeling and simulation, automatic
+            control, electrical engineering, digital circuits, analog circuits,
+            advanced mathematics, and college English.
+          </p>
+          <p class="entry-meta">2024.09 - Present</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <hr class="sec-rule" />
+      <ul class="compact-list">
+        <li><strong>Robot software:</strong> ROS1/2, Gazebo, Isaac Sim, navigation stack, technical documentation.</li>
+        <li><strong>Algorithms:</strong> SLAM, path planning, reinforcement learning, YOLO-based perception, sensor fusion.</li>
+        <li><strong>Programming:</strong> Python, C++, STM32 basics, simulation-to-hardware integration.</li>
+      </ul>
+    </section>
+
+    <section id="awards">
+      <h2>Honors & Certificates</h2>
+      <hr class="sec-rule" />
+      <ul class="awards-list">
+        <li><span>RAICOM Robotics Developer Competition, Intelligent Reconnaissance, National Final, First Prize (Team Captain) <a href="./assets/raicom-2025-first-prize.jpg">[certificate]</a></span><span class="award-year">2025</span></li>
+        <li><span>27th CRAIC National Final, Robot Task Challenge (UAV Air-Ground Collaboration), Third Prize <a href="./assets/craic-2025-third-prize.pdf">[certificate]</a></span><span class="award-year">2025</span></li>
+        <li><span>Core Member, Third Cohort of the Technology Manager Excellence Program, Shenzhen Technology University<br /><span class="muted">Program Dean: Prof. Wuhua Long</span></span><span class="award-year">2026</span></li>
+        <li><span>Learning Star Scholarship, First Prize</span><span class="award-year">SZTU</span></li>
+        <li><span>Science and Innovation Star Scholarship, First Prize and Second Prize</span><span class="award-year">SZTU</span></li>
+        <li><span>College English Test Band 6 (CET-6): 530</span><span class="award-year">English</span></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <hr class="sec-rule" />
+      <p>
+        I am open to robotics research assistant and internship opportunities
+        related to ROS development, navigation algorithms, motion control,
+        perception, and decision-making for robotic systems.
+      </p>
+      <p>Email: <a href="mailto:xhhuniverse@gmail.com">xhhuniverse@gmail.com</a></p>
+    </section>
   </main>
+
+  <footer>
+    <p>Last updated: September 2026</p>
+  </footer>
 </body>
 </html>
