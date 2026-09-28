@@ -70,13 +70,20 @@
           可通行性与风险代价地图构建、全局及局部路径规划、
           危险源搜索识别与定位，并支持任务完成后的自主返航。系统集成 FAST-LIO、OctoMap、
           A* 与 EGO-Planner 等模块；针对退化场景中的位姿漂移与定位数据积压问题对 FAST-LIO
-          进行优化，提升定位稳定性与实时处理能力。
+          进行优化，提升定位稳定性与实时处理能力；采用 PPO 强化学习训练机器狗摔倒后的
+          自主恢复策略，提升连续探索过程中的运动鲁棒性。
         </p>
-        <p class="tags">FAST-LIO · OctoMap · A* · EGO-Planner · 四足机器人</p>
-        <figure class="project-media">
-          <img src="../assets/quadruped-demo-16-21.gif" alt="四足机器人自主导航、建图与规划演示" loading="lazy" />
-          <figcaption>四足机器人自主导航、建图与规划演示片段。</figcaption>
-        </figure>
+        <p class="tags">FAST-LIO · OctoMap · A* · EGO-Planner · PPO · 四足机器人</p>
+        <div class="project-media-grid">
+          <figure class="project-media">
+            <img src="../assets/quadruped-demo-16-21.gif" alt="四足机器人自主导航、建图与规划演示" loading="lazy" />
+            <figcaption>四足机器人自主导航、建图与规划。</figcaption>
+          </figure>
+          <figure class="project-media">
+            <img src="../assets/quadruped-fall-recovery.webp" alt="四足机器人在仿真环境中摔倒后自主恢复" loading="lazy" />
+            <figcaption>基于 PPO 强化学习训练的摔倒后自主恢复功能。</figcaption>
+          </figure>
+        </div>
       </article>
 
       <article class="pub-item">
